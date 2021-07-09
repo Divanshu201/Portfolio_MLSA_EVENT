@@ -1,0 +1,209 @@
+Information security
+Let’s start by thinking about what cybersecurity is and what we are trying to accomplish. Most definitions of cybersecurity tend to focus on technology, so a typical definition might include the “security of digital systems” or “security of communications”. These definitions tend to get blurry, very quickly. For instance:
+
+What if a fraudster sends an email to a person claiming to be from their bank and asking for their personal identification number (PIN). Is that a cybersecurity concern?
+What if a private investigator calls an employee of a company to ask him to print some confidential files and leave the papers in the mail room them to collect. Is that a cybersecurity concern?
+In the real world, most attacks typically have some digital elements as well as some human factors and occasionally a physical element too. Please keep this in mind. We should not just focus on digital elements because this limits our thought process and gives potential attackers greater flexibility. 
+
+Let’s consider a new concept called information security. Information security focuses on the value of the information we are trying to protect rather than how we protect it. The following diagram shows that under information security are the physical elements and digital elements.
+
+ 
+
+Diagram showing Information Security over-arches Physical Security and Cybersecurity
+
+Physical security is the practice of physically protecting assets like buildings, security cameras, equipment, and property from physical threats such as theft, vandalism, fire, and natural disasters.
+Cybersecurity is the practice of protecting and recovering networks, devices, and programs from any type of malicious cyber attack. 
+Good security cannot have one without the other and both must work towards the same objectives. 
+
+
+What are cybersecurity professionals trying to accomplish? 
+According to the National Institute of Standards and Technology (NIST), information security is: "The protection of information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide confidentiality, integrity, and availability."
+
+So, information security’s objectives are often defined using the CIA triad as a good starting point. CIA is a mnemonic for the three objectives: Confidentiality, Integrity, and Availability.
+
+Confidentiality
+Information is private
+ 
+
+Confidentiality means preventing information from falling into the hands of people who do not have authorization to access the information.
+Integrity
+Information has not been altered
+
+Integrity means making sure the information stays accurate and consistent, and ensuring that unauthorized people cannot makes any changes to the information.
+Availability
+Information can be accessed when required	Availability means timely and reliable access to and use of the information when required.
+
+
+-----------------------------------------------------------------------------------------------
+
+
+Threat actor groups 
+Cybersecurity professionals must be aware of the different types of threat actor groups, or cyber attacker groups. These are diverse groups and they vary substantially in motivation, resources, and techniques.
+The five types of threat actor groups: Script kiddie, Hacktivist, Criminal gang, Nation state hacker, and Malicious insider.
+
+Group 1: Script kiddie
+The first group is the least advanced, the script kiddie. The term "script kiddie" refers to someone who uses programs, frequently basic hacking tools, without truly understanding what is going on behind the scenes. They may display a basic understanding of networking and programming, but lack technical skills as well as patience or strategic intent.
+
+Profile of a script kiddie
+Who are they?	                                What is their objective?
+Self-taught individuals, typically teenagers	Seek reputation enhancement or attack for fun
+What resource do they have?	                How do you protect against them?
+Little funding, little or no technical expertise and assistance, may use free tools written by others	Ensure patching schedule is effective and basic perimeter defenses are up to date.
+
+
+Group 2: Hacktivist
+The second group is the hacktivist. Hacktivist is a term which combines "hacker" and "activist". Hacktivists seek a political or economic change and will use hacking to achieve it.
+
+Profile of a hacktivist
+Who are they?					What is their objective?
+Driven idealists forming loose coalitions	Want to bring about a change 
+What resource do they have?			How do you protect against them?
+Operate at scale with varying tools and biggest attribute is size	Ensure defenses can cope with an extended disruptive attack
+
+
+Group 3: Criminal gang
+As long as there is easy money to be made, criminals will always be a problem for society. The internet’s creation has created a new method for criminals to prey on victims with an unprecedented scale, range, and ease. Rather than run risks in person, aspiring criminals can send out millions of infected emails from halfway around the world and secure 
+a ransom from a victim before transferring funds into cryptocurrencies to evade conventional policing methods. Capturing these criminals is extremely taxing and, due to international laws, securing a prosecution is near impossible. Sadly, most criminals are aware of these facts.
+
+Profile of a criminal gang
+Who are they?						What is their objective?
+Groups of people in national and international teams	Driven by financial motivations
+What resource do they have?				How do you protect against them?
+Broad range of tools and equipment, bought and traded on the dark web	Need to have a fully trained workforce with protections around critical assets and back-ups.
+
+
+
+Group 4: Nation state hacker or advanced persistent threat (APT)
+The next group, and one that receives the most media attention, perhaps unduly, is the nation state attackers. Many military organizations around the word now consider cyberspace a fifth sphere of conflict alongside sea, land, air, and space. Many nations have demonstrated the ability to project power across national borders to a great and expanding variety
+ of consequences.
+
+Profile of a nation state hacker
+Who are they?						What is their objective?
+Highly trained and educated specialists			Follow strategic, multi-year plans on a wide range of issues
+What resource do they have?				How do you protect against them?
+Very large budgets, cutting-edge tooling, and leading-edge research	Incredibly difficult; need fully coordinated defenses around every aspect of the organization
+
+
+
+Group 5: Malicious insider
+The final group that is arguably the most concerning, is that of the malicious insider. The insider refers to a member within an organization that either intentionally or otherwise acts against it. 
+
+
+Profile of a malicious insider
+Who are they?												What is their objective?
+Staff members who work against an organization's own interests, either deliberately or accidentally	Seek revenge or have financial motives
+What resource do they have?				How do you protect against them?
+No budget or resources required; use granted access	Monitor staff carefully and ensure organization's culture is effective to prevent issues
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Types of cyber attacks
+There are many methods in which a cyber attacker can enter and exploit a system. Often, attacks are not technical at all, but rather an exploitation of how humans interact with the system in a flawed and vulnerable way.
+
+Denial of service (DoS) attack:
+A DoS attack is any type of attack that causes a complete or partial system outage. 
+The means to perform a DoS attack can range from causing a system to crash to making it unreachable 
+or incapable of continuing work due to abnormal levels of forwarded network traffic.
+
+EXAMPLE    
+An attacker could send a maliciously formatted file to a server that causes it to overload.
+ An example of this is a billion laugh attack, in which an XML file references itself, expanding to a considerably larger file.
+
+
+
+Distributed denial of service (DDoS) attack
+A DDoS attack is a DoS attack that comes from more than one source at the same time. 
+The machines used in such attacks are collectively known as “botnets” and will have 
+previously been infected with malicious software, so they can be remotely controlled by the attacker. 
+
+According to research, tens of millions of computers are likely to be infected with botnet programs worldwide.
+EXAMPLE   
+An attacker could send a large number of page requests to a web server in a short space of time, overloading it.
+ A similar impact is observed with ticket sales websites where a spike in user demand can overload systems.
+
+
+Phishing attack
+A phishing attack is the practice of sending messages that appear to be from trusted sources with the goal of gaining
+ personal information or influencing users to do something. 
+
+It combines social engineering and technical trickery. 
+Unsuspecting users open the email and may provide protected information or download malware.
+
+EXAMPLE    
+An attacker could send an email with a file attachment or a link to a fake website that loads malware onto a target's computer. 
+
+
+
+Spear phishing attack
+Spear phishing attacks are a very targeted type of phishing activity. 
+Attackers take the time to conduct research into targets and create messages that are personal and relevant, and thus likely more effective.
+
+EXAMPLE   
+An attacker collects a target's details from social media and calls the target pretending to be a representative from the bank. The attacker 
+advises the account is compromised and asks the target to transfer money to a "safe" bank account. The attack is convincing because of the 
+attacker's apparently legitimate knowledge.
+
+
+Malware
+Malware is a catch-all term for malicious software. It is any software designed to perform in a detrimental manner to a targeted user without the user's informed consent.
+It often triggers secretly when a user runs a program or downloads a file, which can often be unintentional.
+
+Once active, malware can block access to data and programs, steal information, and make systems inoperable. 
+
+EXAMPLE    
+Within the various types of malware, you will find examples related to their function, such as keyloggers (which captures a victim's keystrokes) or ransomware
+ (which holds a victim's files captive in exchange for a ransom payment).
+
+
+Man in the middle (MitM) attack
+A MitM attack occurs when hackers insert themselves in the communications between a client and a server. 
+This allows hackers to see what’s being sent and received by both sides.
+EXAMPLE   
+An attacker could set up a "free" WiFi hot spot in a popular public location. 
+Anyone who connects to that WiFi network could have their communications examined by the attacker, who may redirect victims to fake log-in screens or insert advertisements over webpages.
+
+
+Domain name system (DNS) attack
+DNS is one of the core protocols used on the internet.
+Basically, the DNS protocol allows a computer to resolve a domain to an IP address, which allows a user to, for example, reach BMW’s main website by typing “bmw.com” instead of writing an IP address that is hard to remember.
+DNS is used almost everywhere. As a core protocol of the internet, lots of attack vectors directly target DNS, including DNS spoofing, domain hijacking, and cache poisoning (just to name a few).
+EXAMPLE   
+In 2016, the DNS service provided by a company called Dyn was attacked. This resulted in major outages across most of the US, leaving millions of Americans unable to access or use internet services.
+
+
+
+Structured query language (SQL) injection
+SQL allows users to query databases. 
+SQL injection is the placement of malicious code in SQL queries, usually via web page input. A successful attack allows common commands to be run. This can include deleting the database itself!
+SQL injection is one of the most common web hacking techniques.
+EXAMPLE  
+In the UK, two teenagers managed to target TalkTalk's website in 2015 to steal hundreds of thousands of customer records from a database that was remotely accessible.
+
+
+
+Introducing the Lockheed Martin Cyber Kill Chain® framework
+
+1.Reconnaissance: During this stage, the attacker gathers information about the target. This can be achieved through probing digital servers, speaking with people close to the target, or just reading the news!
+
+2.Weaponization: Once a specific vulnerability has been identified, a piece of malware is designed to exploit it. This process can range from downloading a sample of a database, purchasing a tool from a 3rd party, or developing something custom.
+
+3.Delivery: The chosen malware must be sent to the target in some manner. Despite progress over the years, the most common method is still via email. Other methods can include website downloads and infected or modified USB devices.
+
+4.Exploitation: Once malware is given to the target, it activates and performs a series of instructed steps. How this occurs is highly variable and depends on many details about the programs and operating system in use.
+This process is known as "exploiting a vulnerability" and the software used to do it is known as exploit code or an exploit.
+
+5.Installation: The malware attempts to get some element of persistence within the target system. This can be achieved through the creation of back doors, which can include creating new accounts, installing remote access programs,
+or introducing new vulnerabilities into the system. These factors mean that if the original vulnerability is patched, it is too late for the defender as the attacker’s access remains.
+
+6.Command and Control (C2): A method for the attacker to communicate with the compromised systems must be established. This enables instructions and upgrades to be sent to the target and for data to be sent back to the attacker. 
+This can be done using websites, direct connections, and even Twitter.
+
+7.Actions on Objectives: Once all the previous steps have been completed, the attacker is free to complete the original intent. This could range from stealing data, modifying data, or destroying key system elements.
+
+
+
+
+
+
